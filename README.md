@@ -17,7 +17,7 @@ The provided Python script implements Chest X-Ray image super-resolution using t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/chest-xray-super-resolution.git
+   git clone https://github.com/Krishnakokate/Enhancing-Chest-X-Ray-using-Image-Super-Resolution-.git
    cd chest-xray-super-resolution
 
 2. Install dependencies:
@@ -35,7 +35,7 @@ The provided Python script implements Chest X-Ray image super-resolution using t
 5. Define dataset path and configure parameters:
 
    ```bash
-   root_dir = '/content/drive/MyDrive/image_superresolution_data'
+   root_dir = '/content/drive/MyDrive/dataset'
    crop_size = 300
    upscale_factor = 3
    batch_size = 8
@@ -43,4 +43,4 @@ The provided Python script implements Chest X-Ray image super-resolution using t
 
 6. Run the main script:
 
-   python image_superresolution.py
+   Enhancing_Chest_X_Ray_using_Image_Super_Resolution.ipynb
