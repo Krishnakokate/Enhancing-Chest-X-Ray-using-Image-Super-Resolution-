@@ -1,4 +1,4 @@
-# Chest X-Ray Image Super-Resolution
+# Enhancing Chest X-Ray Using Image Super-Resolution
 
 ## Code Overview
 
