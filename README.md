@@ -23,23 +23,24 @@ The provided Python script implements Chest X-Ray image super-resolution using t
 2. Install dependencies:
 
    ```bash
-   Copy code
    pip install -r requirements.txt
 
 
 3. Mount Google Drive (if using Colab):
 
+   ```bash
    from google.colab import drive
    drive.mount('/content/drive')
    
-4. Define dataset path and configure parameters:
+5. Define dataset path and configure parameters:
 
+   ```bash
    root_dir = '/content/drive/MyDrive/image_superresolution_data'
    crop_size = 300
    upscale_factor = 3
    batch_size = 8
    epochs = 100
 
-5. Run the main script:
+6. Run the main script:
 
    python image_superresolution.py
